@@ -4,8 +4,6 @@
 	 
 int euclideanGCD(int a, int b)
 {
-	/* for dividend '0' we return the divisor as the gcd as of now
-	 */
 	int dividend;
 	int divisor;
 	int remainder;
@@ -19,7 +17,7 @@ int euclideanGCD(int a, int b)
 	}
 	
 	if (!divisor) {
-		printf("The division by zero is undefined!\n");
+		printf("\nDivision by zero is undefined!\n");
 		exit(1);
 	}
 	
