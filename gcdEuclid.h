@@ -7,7 +7,7 @@
  */
 
 #define NUMSIZE 10
-#define MAX(a, b) ((a) > (b) ? (a) : (b))
+#define MAX(a, b) (abs(a) > abs(b) ? (a) : (b))
 	 
 int euclideanGCD(int a, int b);
 void printGCD(int a, int b);
